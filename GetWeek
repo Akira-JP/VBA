@@ -1,1 +1,5 @@
-翌週第1営業日
+Function GetWeek(ExeDate As String) As String
+
+Dim SerialWeek As Integer
+
+SerialWeek = Weekday(DateSerial(Year(ExeDate), Mo
